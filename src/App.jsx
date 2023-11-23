@@ -1,9 +1,11 @@
-import "./App.css";
+import './App.css';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
     <div className="App">
-      <h1>LAB | React IronContacts</h1>
+      <h1>IronContacts</h1>
+      <Contacts />
     </div>
   );
 }
